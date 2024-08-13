@@ -4,8 +4,9 @@ module.exports = {
     title: `SoftStack Factory`,
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-image`,
+    `gatsby-plugin-material-ui`,
+    // `gatsby-plugin-react-helmet`,
+    // `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-source-filesystem`,
