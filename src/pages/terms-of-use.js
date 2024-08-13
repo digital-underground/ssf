@@ -1,6 +1,6 @@
 // src/pages/terms-of-use.js
 import React from "react";
-import Footer from "../components/footer";
+// import Footer from "../components/footer";
 
 const TermsOfUse = () => (
     <div className="terms-of-use-page">
@@ -42,7 +42,7 @@ const TermsOfUse = () => (
         LIMITATION ON TIME TO FILE CLAIMSANY CAUSE OF ACTION OR CLAIM YOU MAY HAVE ARISING OUT OF OR RELATING TO THE WEBSITE OR THESE TERMS OF USE MUST BE COMMENCED WITHIN ONE (1) YEAR AFTER THE CAUSE OF ACTION ACCRUES, OTHERWISE SUCH CAUSE OF ACTION OR CLAIM IS PERMANENTLY BARRED.
         
         ENFORCEMENT OF TERMS OF USEBY ACCESSING AND USING THE WEBSITE, YOU AGREE THAT YOUR ACCESS TO AND USE OF THIS WEBSITE IS SUBJECT TO THESE TERMS OF USE, AS WELL AS ALL APPLICABLE LAWS, AS GOVERNED AND INTERPRETED PURSUANT TO THE LAWS OF THE STATE OF DELAWARE. */}
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
     </div>
 );
 
