@@ -6,6 +6,7 @@ import About from "../components/about";
 import Testimonials from "../components/testimonials";
 import Footer from "../components/footer";
 import Modal from '../components/modal';
+import Mission from '../components/mission';
 import Divider from '@mui/material/Divider';
 import Construction from '../components/construction';
 import Box from '@mui/material/Box';
@@ -22,6 +23,8 @@ const IndexPage = () => {
       <Header />
       <Box sx={{ bgcolor: 'background.default' }}>
         <Construction />
+        <Divider />
+        <Mission />
         <Divider />
         <About />
         <Divider />
