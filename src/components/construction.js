@@ -17,7 +17,7 @@ export default function Construction() {
             : `linear-gradient(#02294F, ${alpha('#090E10', 0.0)})`,
         backgroundSize: '100% 20%',
         backgroundRepeat: 'no-repeat',
-        paddingTop: '430vh',
+        paddingTop: '520vh',
       })}
     >
       <Container
@@ -32,7 +32,7 @@ export default function Construction() {
         <Stack spacing={2} useFlexGap sx={{ width: { xs: '100%', sm: '70%' } }}>
           <Box
             component="img"
-            src="./logo.png"
+            src="./images/logo.png"
             alt="Logo"
             sx={{
               width: { xs: '80%', sm: '60%', md: '50%' },

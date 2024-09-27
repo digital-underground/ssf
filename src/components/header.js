@@ -82,7 +82,7 @@ function Header() {
               }}
             >
               <img
-                src='./logo-white.png'
+                src='./images/logo-white.png'
                 style={logoStyle}
                 alt="logo of softstackfactory"
               />
@@ -95,14 +95,14 @@ function Header() {
                     About
                   </Typography>
                 </MenuItem>
-                <MenuItem
+                {/* <MenuItem
                   onClick={() => scrollToSection('features')}
                   sx={{ py: '6px', px: '12px' }}
                 >
                   <Typography variant="body2" color="text.primary">
                     Features
                   </Typography>
-                </MenuItem>
+                </MenuItem> */}
                 <MenuItem
                   onClick={() => scrollToSection('testimonials')}
                   sx={{ py: '6px', px: '12px' }}
@@ -111,7 +111,7 @@ function Header() {
                     Testimonials
                   </Typography>
                 </MenuItem>
-                <MenuItem
+                {/* <MenuItem
                   onClick={() => scrollToSection('highlights')}
                   sx={{ py: '6px', px: '12px' }}
                 >
@@ -126,7 +126,7 @@ function Header() {
                   <Typography variant="body2" color="text.primary">
                     FAQ
                   </Typography>
-                </MenuItem>
+                </MenuItem> */}
               </Box>
             </Box>
             <Box sx={{ display: { sm: '', md: 'none' } }}>
