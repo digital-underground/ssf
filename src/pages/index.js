@@ -22,6 +22,8 @@ const IndexPage = () => {
       <Modal />
       <Header />
       <Box sx={{ bgcolor: 'background.default' }}>
+        <Mission />
+        <Divider />
         <About />
         <Divider />
         <Testimonials />
