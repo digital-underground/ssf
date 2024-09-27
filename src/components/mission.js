@@ -21,15 +21,16 @@ const Mission = () => {
           sx={{
             width: { sm: '100%', md: '80%' },
             textAlign: { sm: 'left', md: 'center' },
+            paddingTop: '580vh',
           }}
         >
           <Typography component="h2" variant="h4" color="text.primary">
             Our Mission
           </Typography>
           <Typography variant="body1" color="text.secondary" sx={{ mb: 4 }}>
-            We believe everyone should have access to technology literacy and a career in tech.
-            We aim to connect community with opportunity, by supporting local non-profits and getting students valuable work experience.
-            We solve human problems with technology.
+            We believed everyone should have access to technology literacy and a career in tech.
+            We aimed to connect community with opportunity, by supporting local non-profits and getting students valuable work experience.
+            We solved human problems with technology.
           </Typography>
         </Box>
       </Container>
